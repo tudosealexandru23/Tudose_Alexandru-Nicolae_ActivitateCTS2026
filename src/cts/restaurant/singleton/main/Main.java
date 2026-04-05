@@ -6,7 +6,7 @@ public class Main {
         Client c1 = new Client("Gigi", "0712345678");
         manager.adaugaClient(c1);
 
-        Client c2 = manager.getClient("0799999999");
+        Client c2 = manager.getClient("0712345678");
 
         System.out.println(c2.getNume());
     }
